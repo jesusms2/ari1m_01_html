@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
    
     <title>Document</title>
 </head>
-<body background="img/fondo1.jpg">
-    <center>
-    <table border=1 WIDTH="1000" height="750" bgcolor="#33BAFF">
+<body style="background-image: url(img/fondo1.jpg);">
+  <div style="text-align: center;">
+      <table style="
+      text-align: left;
+      display: inline-block;
+      width: 1000px;
+      height: 750px;
+      
+      border: 1px solid black;
+      background: #33BAFF;
+      ">
         
-        <tr  WIDTH="1000" height="50"><td colspan="5"><center> <h1>PELICULAS</h1> </center></td>
-        <tr  WIDTH="1000" height="20" background="img/bandera1.jpg">
-          <td width="200" height="20"><a href="index.html">Inicio</a></td>
-          <td WIDTH="200" height="20"><a href="lista.html">Sagas</a></td>
-          <td WIDTH="200" height="20"><a href="tabla.html">Tabla de generos con ejemplos</a></td>
-          <td WIDTH="200" height="20"><a href="formulario.html">Formulario</a></td>
-          <td WIDTH="200" height="20"><a href="pagina.html">Paginas recomendadas</a></td>
+      <tr>
+        <td colspan="5" style="width: 1000px;height: 50px ;text-align: center;">
+          <h1>PELICULAS</h1>
+        </td>
+        <tr style="border: 1px solid black;width: 1000px; height: 20px;">
+          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="CSS.html">Inicio</a></td>
+          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="lista.html">Sagas</a></td>
+          <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="tabla.html">Tabla de generos con
+              ejemplos</a></td>
+          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="formulario.html">Formulario</a></td>
+          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="pagina.html">Paginas recomendadas</a>
         </tr>
-        <tr   bgcolor="">
+        <tr>
+
           <td colspan="5"> 
+            <div style="height:200px;"></div>
             <form action="/action_page.php">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value="Jesus"><br>
@@ -36,14 +50,9 @@
 
                   <input type="submit" value="Submit">
               </form> 
-          
-           
-          
-          </td>
-          
+             </td>
         </tr>
-    </center>
-      
-    </table>
+      </table>
+  </div>
 </body>
 </html>
