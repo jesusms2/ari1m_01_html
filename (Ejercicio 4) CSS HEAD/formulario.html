@@ -3,35 +3,60 @@
 <head>
    
     <title>Document</title>
+    <style>
+       body{background-image: url(img/fondo1.jpg);
+  }
+  #divgeneral{text-align: center;
+}
+  table{text-align: left;
+    display: inline-block;
+    width: 1000px;
+    height: 750px;
+    border: 1px solid black;
+    background: #33BAFF;
+
+  }
+  .indice{
+  border: 1px solid black;
+  width: 200px;
+  height: 20px;
+}
+#tr1{
+  "border: 1px solid black;
+  width: 1000px;
+  height: 20px;
+}
+#td1{
+  width: 1000px;
+  height: 50px ;
+  text-align: center;
+}
+#div1{
+  height:200px;
+}
+    </style>
 </head>
-<body style="background-image: url(img/fondo1.jpg);">
-  <div style="text-align: center;">
-      <table style="
-      text-align: left;
-      display: inline-block;
-      width: 1000px;
-      height: 750px;
-      
-      border: 1px solid black;
-      background: #33BAFF;
-      ">
+<body >
+  <div id="divgeneral" >
+      <table >
         
       <tr>
-        <td colspan="5" style="width: 1000px;height: 50px ;text-align: center;">
+        <td id="td1" colspan="5" >
           <h1>PELICULAS</h1>
         </td>
-        <tr style="border: 1px solid black;width: 1000px; height: 20px;">
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="CSS.html">Inicio</a></td>
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="lista.html">Sagas</a></td>
-          <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="tabla.html">Tabla de generos con
+        <tr  id="tr1">
+          <td class="indice"><a href="CSS.html">Inicio</a></td>
+          <td class="indice"><a href="lista.html">Sagas</a></td>
+          <td class="indice"><a href="tabla.html">Tabla de generos con
               ejemplos</a></td>
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="formulario.html">Formulario</a></td>
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="pagina.html">Paginas recomendadas</a>
+          <td class="indice"><a href="formulario.html">Formulario</a></td>
+          <td class="indice"><a href="pagina.html">Paginas recomendadas</a>
+          </td>
         </tr>
         <tr>
 
           <td colspan="5"> 
-            <div style="height:200px;"></div>
+            <div id="div1" "></div>
             <form action="/action_page.php">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value="Jesus"><br>

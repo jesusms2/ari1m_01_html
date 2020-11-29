@@ -4,77 +4,132 @@
 <head>
 
     <title>Document</title>
-</head>
-
-<body style="background-image: url(img/fondo1.jpg);">
-    <div style="text-align: center;">
-      <table style="
-        text-align: left;
+    <style>
+        body{background-image: url(img/fondo1.jpg);
+      }
+      #table1{text-align: left;
         display: inline-block;
         width: 1000px;
         height: 1130px;
         
         border: 1px solid black;
         background: #33BAFF;
-        ">
+    
+      }
+      #divgeneral{text-align: center;
+    }
+    #td1{
+      width: 1000px;
+      height: 50px ;
+      text-align: center;
+    }
+    #tr1{
+      "border: 1px solid black;
+      width: 1000px;
+      height: 20px;
+    }
+    .indice{
+      border: 1px solid black;
+      width: 200px;
+      height: 20px;
+    }
+    #td2{
+    height: 1000px;
+    }
+    #table2{
+        border: 1px solid black; 
+        width: 500px;
+         height: 1000px;
+    }
+    #td3{
+        border: 1px solid black;
+        width: 200px;
+        font-style: italic;
+
+    }
+    #td4{
+        border: 1px solid black;
+        width: 300px;
+        font-style: italic;
+}
+.tds1{
+   border: 1px solid black;
+    width: 200px; 
+
+}
+.tds2{
+   border: 1px solid black;
+   
+
+}
+.trs{
+    width: 500px;
+}
+    </style>
+</head>
+
+<body>
+    <div id="divgeneral" >
+      <table id="table1">
   
         <tr>
-          <td colspan="5" style="width: 1000px;height: 50px ;text-align: center;">
+          <td colspan="5" id="td1">
             <h1>PELICULAS</h1>
           </td>
-        <tr style="border: 1px solid black;width: 1000px; height: 20px;">
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="CSS.html">Inicio</a></td>
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="lista.html">Sagas</a></td>
-          <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="tabla.html">Tabla de generos con
+        <tr  id="tr1">
+          <td class="indice"><a href="CSS.html">Inicio</a></td>
+          <td class="indice"><a href="lista.html">Sagas</a></td>
+          <td class="indice"><a href="tabla.html">Tabla de generos con
               ejemplos</a></td>
-          <td style="border: 1px solid black;width: 200px; height: 20px;"><a href="formulario.html">Formulario</a></td>
-          <td style="border: 1px    solid black;width: 200px; height: 20px;"><a href="pagina.html">Paginas recomendadas</a>
+          <td class="indice"><a href="formulario.html">Formulario</a></td>
+          <td class="indice"><a href="pagina.html">Paginas recomendadas</a>
+          </td>
         </tr>
             <tr>
-                <td colspan="5" style="height: 1000px;">
-                    <table style="border: 1px solid black; width: 500px; height: 1000px;" >
-                        <tr style="width: 500;" width="500">
-                            <td style="border: 1px solid black;width: 200px;font-style: italic;">GENEROS</td>
-                            <td style=" border: 1px solid black;width: 300px;font-style: italic;">EJEMPLOS</td>
+                <td id="td2" colspan="5" >
+                    <table id="table2"  >
+                        <tr class="trs"  >
+                            <td id="td3" >GENEROS</td>
+                            <td id="td4" >EJEMPLOS</td>
                         </tr>
-                        <tr width="500">
-                            <td style=" border: 1px solid black;"width="200" rowspan="4">DRAMA</td>
-                            <td style=" border: 1px solid black;">El niño con el pijama de rayas</td>
+                        <tr class="trs">
+                            <td class="tds1"  rowspan="4">DRAMA</td>
+                            <td class="tds2">El niño con el pijama de rayas</td>
                         <tr>
-                            <td style=" border: 1px solid black;">Intocable</td>
-                        </tr>
-                        <tr>
-                            <td style=" border: 1px solid black;">Titanic</td>
+                            <td class="tds2">Intocable</td>
                         </tr>
                         <tr>
-                            <td style=" border: 1px solid black;">Cadena perpetua</td>
+                            <td class="tds2">Titanic</td>
+                        </tr>
+                        <tr>
+                            <td class="tds2">Cadena perpetua</td>
                         </tr>
             </tr>
-            <tr width="500">
-                <td style=" border: 1px solid black;" width="200" rowspan="4">ACCIÓN</td>
-                <td style=" border: 1px solid black;">Vengadores</td>
+            <tr class="trs">
+                <td class="tds1" rowspan="4">ACCIÓN</td>
+                <td class="tds2">Vengadores</td>
             <tr>
-                <td style=" border: 1px solid black;">John wick</td>
-            </tr>
-            <tr>
-                <td style=" border: 1px solid black;">Rocky</td>
+                <td class="tds2">John wick</td>
             </tr>
             <tr>
-                <td style=" border: 1px solid black;">El caballero oscuro </td>
+                <td class="tds2">Rocky</td>
+            </tr>
+            <tr>
+                <td class="tds2">El caballero oscuro </td>
             </tr>
             </tr>
-            <tr width="500">
+            <tr class="trs">
 
-                <td style=" border: 1px solid black;" width="200" rowspan="4">CIENCIA FICCIÓN</td>
-                <td style=" border: 1px solid black;">Star wars</td>
+                <td class="tds1" rowspan="4">CIENCIA FICCIÓN</td>
+                <td class="tds2">Star wars</td>
             <tr>
-                <td style=" border: 1px solid black;">Alien</td>
+                <td class="tds2">Alien</td>
             </tr>
             <tr>
-                <td style=" border: 1px solid black;">Interstellar</td>
+                <td class="tds2">Interstellar</td>
             </tr>
             <tr>
-                <td style=" border: 1px solid black;">Acero puro </td>
+                <td class="tds2">Acero puro </td>
             </tr>
             </tr>
         </table>

@@ -4,38 +4,66 @@
 <head>
 
   <title>Document</title>
-</head>
-
-<body style="background-image: url(img/fondo1.jpg);">
-  <div style="text-align: center;">
-    <table style="
-    text-align: left;
+  <style>
+    body{background-image: url(img/fondo1.jpg);
+  }
+  table{text-align: left;
     display: inline-block;
     width: 1000px;
     
     border: 1px solid black;
     background: #33BAFF;
-    ">
+
+  }
+  #divgeneral{text-align: center;
+}
+#td1{
+  width: 1000px;
+  height: 50px ;
+  text-align: center;
+}
+#tr1{
+  "border: 1px solid black;
+  width: 1000px;
+  height: 20px;
+}
+.indice{
+  border: 1px solid black;
+  width: 200px;
+  height: 20px;
+}
+.h1{
+  font-family: Arial, Helvetica, sans-serif;
+   margin: 0; 
+   font-style: normal; 
+   color: white;
+
+}
+</style>
+</head>
+
+<body>
+  <div id="divgeneral" >
+    <table>
 
       <tr>
-        <td colspan="5" style="width: 1000px;height: 50px ;text-align: center;">
+        <td colspan="5" id="td1">
           <h1>PELICULAS</h1>
         </td>
-      <tr style="border: 1px solid black;width: 1000px;height: 20px;">
-        <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="CSS.html">Inicio</a></td>
-        <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="lista.html">Sagas</a></td>
-        <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="tabla.html">Tabla de generos con
-            ejemplos</a></td>
-        <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="formulario.html">Formulario</a></td>
-        <td style="border: 1px solid black;width: 200px;height: 20px;"><a href="pagina.html">Paginas recomendadas</a>
-        </td>
-      </tr>
+        <tr  id="tr1">
+          <td class="indice"><a href="CSS.html">Inicio</a></td>
+          <td class="indice"><a href="lista.html">Sagas</a></td>
+          <td class="indice"><a href="tabla.html">Tabla de generos con
+              ejemplos</a></td>
+          <td class="indice"><a href="formulario.html">Formulario</a></td>
+          <td class="indice"><a href="pagina.html">Paginas recomendadas</a>
+          </td>
+        </tr>
       <tr>
         <td colspan="5">
 
 
-          <h1
-            style="font-family: Arial, Helvetica, sans-serif; margin: 0; font-style: normal; color: white;">
+          <h1 class="h1">
             DISNEY </h1>
           <ul>
             <h3>Marvel(UCM)</h3>
@@ -61,8 +89,7 @@
               <h4>Toy story</h4>
             </li>
           </ul>
-          <h1
-            style="font-family: Arial, Helvetica, sans-serif; margin: 0; font-style: normal; color: white;">
+          <h1 class="h1">
             WARNER BROS </h1>
           <ul>
             <h3>DC</h3>
