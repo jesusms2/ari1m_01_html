@@ -2,91 +2,71 @@
 <html lang="es">
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=2">
 
   <title>Document</title>
   <style>
-    body{background-image: url(img/fondo1.jpg);
+    @media  screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
   }
-  table{text-align: left;
-    display: inline-block;
-    width: 1000px;
-    
-    border: 1px solid black;
-    background: #33BAFF;
+}
 
-  }
-  #divgeneral{text-align: center;
-}
-#td1{
-  width: 1000px;
-  height: 50px ;
-  text-align: center;
-}
-#tr1{
-  "border: 1px solid black;
-  width: 1000px;
-  height: 20px;
-}
-.indice{
-  border: 1px solid black;
-  width: 200px;
-  height: 20px;
-}
-h2{
-  text-decoration: underline;font-weight: bold;  
-}
-h3{
-  text-decoration: underline;
-}
 img{
-  width: 200px;
-  height: 100px;
-}
-#separacion{
-  height: 2.3em;
+  width: 400px;
+  height: 200px;
 }
   </style>
 </head>
 
 <body>
-  <div id="divgeneral" >
-    <table>
+  
+  <div style="background-color: rgb(4, 184, 255);
+  margin: 10px;
+  margin-bottom: 5px;
+  width: 1600px;
+  height: 50px;
+  text-align: center;
+  padding: 20px;
+  ;" >
+    <h1 style="margin: 0px;
+    ">PELICULAS</h1>
+ </div>
+ <div style="background-color:rgb(4, 184, 255) ;
+ display: inline-block;
+ margin-top: 10px;
+ margin: 10px;
+ width: 810px;
+ height:900px;
+ text-align: center;"
+ ><h1 style="text-align: center;">Streaming:</h1>
+ <p>En la actualidad aunque se siga consumiendo peliculas en el cine o en la television convencional es algo
+  que esta en declive, frente a las plataformas de streaming que estan en auge. <br>Estos serian algunos
+  ejemplos de la mas conocidas.</p>
+<h4>NETFLIX</h4> <img  src="img/netflix.jpg" alt="Sala de cine" />
+<h4>HBO</h4> <img  src="img/hbo.jpg" alt="Sala de cine" />
 
-      <tr>
-        <td colspan="5" id="td1">
-          <h1>PELICULAS</h1>
-        </td>
-      <tr  id="tr1">
-        <td class="indice"><a href="CSS.html">Inicio</a></td>
-        <td class="indice"><a href="lista.html">Sagas</a></td>
-        <td class="indice"><a href="tabla.html">Tabla de generos con
-            ejemplos</a></td>
-        <td class="indice"><a href="formulario.html">Formulario</a></td>
-        <td class="indice"><a href="pagina.html">Paginas recomendadas</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="5">
-          <h2 >Mejores sitios para ver peliculas</h2>
-          <h3 > CLASICOS:</h3>
-          <p>Son las plataformas por las que las peliculas han sido vistas a lo largo de su historia mas reciente.</p>
-          <h4>CINE</h4> <img src="img/cine.jpg" alt="Sala de cine">
-          <h4>TV</h4> <img  src="img/tv.jpg" alt="Sala de cine">
-          <div id="separacion" ></div>
-          <h3 >STREAMING:</h3>
-          <p>En la actualidad aunque se siga consumiendo peliculas en el cine o en la television convencional es algo
-            que esta en declive, frente a las plataformas de streaming que estan en auge. <br>Estos serian algunos
-            ejemplos de la mas conocidas.</p>
-          <h4>NETFLIX</h4> <img  src="img/netflix.jpg" alt="Sala de cine" />
-          <h4>HBO</h4> <img  src="img/hbo.jpg" alt="Sala de cine" />
+</div>
+ <div style=
+ 
+ "background-color:rgb(4, 184, 255) ;
+ display: inline-block;
+ margin: 0px 0px 0px 1px;
+ width: 810px;
+ height: 900px;
+ text-align: center;"
+ >
+ 
+ <h1 style="text-align: center;" style="margin: 0px;
+ "> Clasico:</h1>
+ <p style="margin:9px0px">Son las plataformas por las que las peliculas han sido vistas a lo largo de su historia mas reciente.</p>
+ <p></p> La historia del cine como espectáculo comenzó en París el 28 de diciembre de 1895.
+ </p>
+ <h4>CINE</h4> <img src="img/cine.jpg" alt="Sala de cine">
+ <h4>TV</h4> <img  src="img/tv.jpg" alt="Sala de cine">
+</div>
 
 
-
-        </td>
-
-      </tr>
-    </table>
-  </div>
 </body>
 
 </html>
