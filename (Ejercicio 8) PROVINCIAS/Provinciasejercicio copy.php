@@ -2,7 +2,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maxium-scale=2">
 </head>
-<h1><center>Provincias</center></h1>
+
 
 <pre>
 <?php
@@ -73,19 +73,12 @@ provincias=<?=json_encode($provincias)?>;
 console.log(provincias);
 </script>
 
-<h2><center>29) ¿Cuánto mide el nombre de autonomía más corto?</center></h2>
+
 <br/>
 <?php
+      foreach ($poblacion as $numero) {
 
-$numero = 20;
-$menor = " ";
-foreach($provincias as $var1){
-	if($numero < strlen($var1['provincia'])){
-		$numero = strlen($var1['provincia']);
-		$menor=$var1;
-		echo $menor['provincia'] . " con " . $numero . " caracteres";
-	}
-}
+
 ?>
 
 

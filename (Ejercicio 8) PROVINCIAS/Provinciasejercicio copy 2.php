@@ -77,13 +77,13 @@ console.log(provincias);
 <br/>
 <?php
 
-$numero = 20;
+$numero = 1000000;
 $menor = " ";
-foreach($provincias as $var1){
-	if($numero < strlen($var1['provincia'])){
-		$numero = strlen($var1['provincia']);
+foreach($poblacion as $var1){
+	if($numero < strlen($var1['$poblacion'])){
+		$numero = strlen($var1['$poblacion']);
 		$menor=$var1;
-		echo $menor['provincia'] . " con " . $numero . " caracteres";
+		echo $menor['$poblacion'] . " con " . $numero . " caracteres";
 	}
 }
 ?>
